@@ -1,0 +1,48 @@
+footer{
+	p{
+		color:#eee;
+	}
+}
+.footer-container{
+	text-align: start;
+	background-color: $mainColor;
+	@include flex($align: start);
+	padding: 4rem 1rem;
+	gap: 2rem;
+	div{
+		max-width:250px;
+	};
+	a{
+		display:block;
+		color:#eee;
+		margin-bottom: 1rem;
+	};
+	input{
+		border: 2px solid white;
+		margin-bottom: 10px;
+		display: block;
+		width: 100%;
+	}
+	.bi-envelope-fill{
+		padding: 12px 0 0 15px;
+		font-size: 15px;
+	}
+}
+.footer-title{
+	text-transform: uppercase;
+	font-family: "roboto-bold";
+	margin-bottom: 1rem
+}
+.footer-title:nth-of-type(1)+p, footer img{
+	margin-bottom: 1rem
+}
+.socials-round{
+	margin-top: 1rem;
+	@include flex(start);
+	gap: 7px;
+	div{
+		width: max-content;
+		margin: 0 !important;
+		border-radius: 50%;
+	}
+}

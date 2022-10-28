@@ -1,0 +1,53 @@
+
+/* Reset CSS */
+
+@include reset-css;
+
+
+/* **************************************************************** */
+@font-face {
+    font-family: "roboto-black";
+    src: url("../font/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "roboto-bold";
+    src: url("../font/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "roboto";
+    src: url("../font/Roboto-Regular.ttf");
+}
+body{
+    font-family: "roboto";
+    text-align: center;
+}
+h2, h3{
+    color: $secondColor;
+}
+h4{
+	font-size: 26px;
+	font-family: "roboto-bold";
+	color: white;
+}
+h2{
+    font-size: 24px;
+	font-family: "roboto-black";
+	text-transform: capitalize;
+}
+h3{
+    font-size: 18px;
+	font-family: "roboto-bold";
+	text-transform: uppercase;
+}
+h4{
+	font-size: 30px;
+	font-family: "roboto-black";
+}
+p{
+    line-height: 25px;
+	color: $textColor;
+}
+ul{
+	text-transform: uppercase;
+	font-family: "roboto-bold";
+}
